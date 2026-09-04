@@ -23,7 +23,8 @@ ATOMS3などのセンサーデバイスから施錠状態を受け取り、SQLit
 ## WSLでのセットアップ
 
 ```bash
-cd /home/traube/door-lock-bot
+git clone https://github.com/tr4ube/door-lock-bot.git
+cd door-lock-bot
 cp .env.example .env
 chmod 600 .env
 npm install
