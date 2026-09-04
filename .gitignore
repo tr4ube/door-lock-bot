@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+data/*.sqlite
+data/*.sqlite-*
+coverage/
+*.log
+.pio-python/
+.platformio/
+.platformio-get-pip.py
+firmware/.pio/
+firmware/include/secrets.h
